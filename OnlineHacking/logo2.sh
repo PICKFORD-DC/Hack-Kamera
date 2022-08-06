@@ -8,9 +8,9 @@ u="\033[1;35m"
 p="\033[1;36m"
 v="\033[1;37m"
 pu="\033[0;37m"
-nc="\033[00m"
+nc = "\033[00m"
 
-clear
+
 echo ""
 echo ""
 echo -e $m"             •"$hi"•"$k"•"$h"PHISI"$m"NG" $m"MEN"$h"U"$k"•"$hi"•"$m"•"
