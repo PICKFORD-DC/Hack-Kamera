@@ -1,7 +1,7 @@
 clear
-read -p "Masukan Nama: "  name
+read -p "🤖: Masukan Nama: "  name
 clear
-whiptail --title "WELCOME $name NGENTOD" --fb  --msgbox "FOLOW AKUN FB GUA DULU OKEH 🗿(enter)"  10 50
+whiptail --title "🤖 WELCOME $name NGENTOD" --fb  --msgbox "FOLOW AKUN FB GUA DULU OKEH 🗿(enter)"  10 50
 xdg-open "https://www.facebook.com/profile.php?id=100077142458119"
 clear
 echo ""
