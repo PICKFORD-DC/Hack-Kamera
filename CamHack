@@ -14,7 +14,30 @@
 
 
 # Colors
+spinner=( $red"•"____ _$yellow"•"___ __$cyan"•"__ ___$green"•"_ ____$purple"•" ___$blue"•"_ __$yellow"•"__ _$cyan"•"___);
+ 
+  count(){
+   spin &
+    pid=$!
+ 
+    for i in `seq 1 10`
+    do
+      sleep 1;
+    done
 
+   kill $pid
+  }
+ 
+  spin(){
+    while [ 1 ]
+    do
+      for i in ${spinner[@]};
+      do
+        echo -ne "\r$i";
+        sleep 0.2;
+      done;
+    done
+  }
 black="\033[1;30m"
 red="\033[1;31m"
 green="\033[1;32m"
@@ -35,24 +58,6 @@ success="${cyan}[${white}√${cyan}] ${green}"
 bash OnlineHacking/logo.sh
 
 cwd=`pwd`
-
-# Logo 
-logo="
-${green}    
-${white}    ██████  ███████ ███    ███            █
-${black}    ██      ██   ██ ████  ████         ██  █
-${black}    ██      ███████ ██ ████ ██             ██
-${black}    ██      ██   ██ ██  ██  ██         ██  █
-${white}    ██████  ██   ██ ██      ██ █ █ █      █ 
-${cyan}                                   
-${purple}                                      
-${black}           ██   ██  █████   ██████ ██   ██   
-${white}           ██   ██ ██   ██ ██      ██  ██   
-${white}           ███████ ███████ ██      █████    
-${white}           ██   ██ ██   ██ ██      ██  ██   
-${black}  █  █  █  ██   ██ ██   ██  ██████ ██   ██   by PickFord
-${purple}     
-"
 
 # Package Installer
 pacin(){
@@ -375,7 +380,11 @@ fi
 # Start Point
 while true; do
 clear
-echo -e "$logo"
+echo -e
+echo -e$red"『"  $green"╦ ╦╔═╗╔═╗╦╔═  ╦╔═╔═╗╔╦╗╔═╗╦═╗╔═╗"$blue"
+echo -e    ╠═╣╠═╣║  ╠╩╗  ╠╩╗╠═╣║║║║╣ ╠╦╝╠═╣
+echo -e    ╩ ╩╩ ╩╚═╝╩ ╩  ╩ ╩╩ ╩╩ ╩╚═╝╩╚═╩ ╩"  $red"』"
+echo -e
 sleep 1
 
 bash OnlineHacking/logo2.sh
