@@ -381,8 +381,8 @@ fi
 while true; do
 clear
 echo -e
-echo -e$red"『"  $green"╦ ╦╔═╗╔═╗╦╔═  ╦╔═╔═╗╔╦╗╔═╗╦═╗╔═╗"
-echo -e   $blue" ╠═╣╠═╣║  ╠╩╗  ╠╩╗╠═╣║║║║╣ ╠╦╝╠═╣"
+echo -e $red"『"  $green"╦ ╦╔═╗╔═╗╦╔═  ╦╔═╔═╗╔╦╗╔═╗╦═╗╔═╗"
+echo -e    $blue"╠═╣╠═╣║  ╠╩╗  ╠╩╗╠═╣║║║║╣ ╠╦╝╠═╣"
 echo -e    $blue"╩ ╩╩ ╩╚═╝╩ ╩  ╩ ╩╩ ╩╩ ╩╚═╝╩╚═╩ ╩"  $red"』"
 echo -e
 sleep 1
