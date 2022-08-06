@@ -1,6 +1,4 @@
 #HACKKAMERA
-##Screnshoot
-<img src="https://k.top4top.io/p_2409ce0bk0.jpg">
 ---------
 
 ## Installing In Termux 
@@ -18,3 +16,5 @@ cd Hack-Kamera
 bash setup 
 ```
 ---------
+##Screenshot
+<img src="https://k.top4top.io/p_2409ce0bk0.jpg">
