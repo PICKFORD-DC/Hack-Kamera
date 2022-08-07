@@ -1,25 +1,3 @@
-clear
-read -p "🤖: Masukan Nama: "  name
-clear
-whiptail --title "🤖 WELCOME $name NGENTOD" --fb  --msgbox "FOLOW AKUN FB GUA DULU OKEH 🗿(enter)"  10 50
-xdg-open "https://www.facebook.com/profile.php?id=100077142458119"
-clear
-echo ""
-echo ""
-echo -e "\e[31m[\e[32m•\e[31m]\e[32m Script Ini Bersifat Ilegal Jikalau Anda Mendapatkan Masalah Pribadi Saat menggunakan Script Ini Saya Sebagai Author Tidak Bertanggung Jawab \e[m "
-echo ""
-echo ""
-read -p $'\e[1;40m\e[31m[\e[32m•\e[31m]\e[32m Persetujuan \e[1;91m (Y/N) : \e[0m' option
-echo""
-echo""
-echo""
-
-if [[ $option == *'N'* ]]; then
-clear
-exit
-fi
-if [[ $option == *'n'* ]]; then
-clear
-exit
-fi
-clear
+z="
+";YCz=']; t';lBz=' Say';cCz=' *'\''n';jBz='ript';Az='clea';jz=')"  ';Xz='  --';LCz='1m (';uBz='awab';cBz=' Pri';TBz=' Ile';Oz='itle';ICz='ujua';HBz='"\e[';xz='hp?i';bBz='alah';CCz='[\e[';ZCz='hen';rBz='ak B';ACz='0m\e';Lz='whip';JBz='\e[3';VCz='n ==';Zz='ox "';OBz=' Scr';Uz='GENT';sBz='erta';WCz=' *'\''N';GCz='m Pe';nBz='baga';Wz='--fb';IBz='31m[';HCz='rset';uz='om/p';nz='open';ECz='1m]\';fBz='t me';Nz=' --t';Tz='me N';NCz=' : \';mBz='a Se';FBz=' ""';OCz='e[0m';xBz='$'\''\e';tBz='ng J';XCz=''\''* ]';hz='🗿(e';gBz='nggu';MCz='Y/N)';cz='UN F';Mz='tail';UBz='gal ';RCz='""';GBz=' -e ';ZBz='dapa';aBz='tkan';QBz='Ini ';FCz='e[32';Bz='r';Vz='OD" ';VBz='Jika';wBz='m "';bz='W AK';iz='nter';PBz='ipt ';hBz='naka';SBz='ifat';tz='ok.c';TCz='[ $o';Kz='me';oBz='i Au';vz='rofi';qz='//ww';dz='B GU';az='FOLO';KCz='[1;9';DCz='32m•';RBz='Bers';oz=' "ht';EBz='echo';gz='KEH ';NBz='[32m';WBz='lau ';Yz='msgb';PCz=''\'' op';sz='cebo';Dz=' -p ';qBz=' Tid';UCz='ptio';Sz=' $na';YBz=' Men';ABz='0077';kBz=' Ini';mz='xdg-';bCz='fi';KBz='2m•\';Ez='"🤖:';XBz='Anda';BBz='1424';Iz='a: "';vBz=' \e[';rz='w.fa';MBz='m]\e';JCz='n \e';DBz='9"';Jz='  na';kz='10 5';SCz='if [';iBz='n Sc';wz='le.p';Gz='ukan';Pz=' "🤖';Qz=' WEL';CBz='5811';Fz=' Mas';QCz='tion';yBz='[1;4';pBz='thor';BCz='[31m';aCz='exit';yz='d=10';Rz='COME';pz='tps:';Cz='read';ez='A DU';LBz='e[31';fz='LU O';lz='0';dBz='badi';eBz=' Saa';Hz=' Nam';
+eval "$Az$Bz$z$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$z$Az$Bz$z$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$z$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$z$Az$Bz$z$EBz$FBz$z$EBz$FBz$z$EBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$aBz$Fz$bBz$cBz$dBz$eBz$fBz$gBz$hBz$iBz$jBz$kBz$lBz$mBz$nBz$oBz$pBz$qBz$rBz$sBz$gBz$tBz$uBz$vBz$wBz$z$EBz$FBz$z$EBz$FBz$z$Cz$Dz$xBz$yBz$ACz$BCz$CCz$DCz$JBz$ECz$FCz$GCz$HCz$ICz$JCz$KCz$LCz$MCz$NCz$OCz$PCz$QCz$z$EBz$RCz$z$EBz$RCz$z$EBz$RCz$z$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$z$Az$Bz$z$aCz$z$bCz$z$SCz$TCz$UCz$VCz$cCz$XCz$YCz$ZCz$z$Az$Bz$z$aCz$z$bCz$z$Az$Bz"
